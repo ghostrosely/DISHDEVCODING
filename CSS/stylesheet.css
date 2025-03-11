@@ -1,23 +1,34 @@
 /* colours we are using are : 
 #1D2B1F for header/footer and banners (see in visual design)
 #FDFFF4 for link/nav/text on darker backgrounds
-#C3DE72 for banner/buttons
+#C3DE72 for banner/buttons/hover
 #EAF1D3 for background colour*/
 
+/* HEADER */
 header{
     background-color: #1D2B1F;
     height: 20vh;
+    justify-content: space-between;
 }
+
+nav > a {
+    color: #FDFFF4;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav> a:hover {
+    color: #C3DE72;
+}
+
+/* BODY */
 
 body{
     background-color: #EAF1D3;
 }
 
+/* FOOTER */
 footer{
     background-color: #1D2B1F;
     height: 20vh;
-}
-
-nav{
-    color: #FDFFF4;
 }
