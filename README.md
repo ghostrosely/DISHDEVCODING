@@ -1,1 +1,3 @@
 # DISHDEVCODING
+
+HOMEPAGE = index.html door BINGYIZHOU
