@@ -4,31 +4,44 @@
 #C3DE72 for banner/buttons/hover
 #EAF1D3 for background colour*/
 
-/* HEADER */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+/*------------------------ HEADER & NAV --------------------------------*/
 header{
     background-color: #1D2B1F;
-    height: 20vh;
-    justify-content: space-between;
+    height: 10.5vh;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    justify-content: space-evenly;
 }
 
 nav > a {
     color: #FDFFF4;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 nav> a:hover {
     color: #C3DE72;
 }
 
-/* BODY */
-
-body{
-    background-color: #EAF1D3;
+.banner{
+    background-color: #C3DE72;
+    height: 14vh;
 }
 
-/* FOOTER */
+/* -------------------------------BODY------------------------------ */
+
+main{
+    background-color: #EAF1D3;
+    height: 76vh;
+}
+
+/* ---------------------------------------FOOTER---------------------------------- */
 footer{
     background-color: #1D2B1F;
-    height: 20vh;
+    height: 10.5vh;
+    bottom: 0;
 }
