@@ -38,7 +38,6 @@ nav> a:hover {
     background-color: #C3DE72;
     top: 0%;
     height: 14vh;
-    width: 185.3vh;
 }
 
 /* -------------------------------BODY------------------------------ */
@@ -46,13 +45,11 @@ nav> a:hover {
 main{
     background-color: #EAF1D3;
     height: 76vh;
-    width: 185.3vh;
 }
 
 /* ---------------------------------------FOOTER---------------------------------- */
 footer{
     background-color: #1D2B1F;
-    width: 185.3vh;
     height: 10.5vh;
     bottom: 0;
 }
