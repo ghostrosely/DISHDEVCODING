@@ -1,8 +1,11 @@
 /* colours we are using are : 
 #1D2B1F for header/footer and banners (see in visual design)
 #FDFFF4 for link/nav/text on darker backgrounds
-#C3DE72 for banner/buttons/hover
-#EAF1D3 for background colour*/
+#C3DE72 for banner/buttons
+#EAF1D3 for background colour
+#d2e49e for hover*/
+
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
@@ -14,6 +17,11 @@ header{
     position: fixed;
     top: 0;
     width: 100vw;
+}
+
+nav{
+    display: flex;
+    flex: 6;
     justify-content: space-evenly;
 }
 
@@ -24,24 +32,28 @@ nav > a {
 }
 
 nav> a:hover {
-    color: #C3DE72;
+    color: #d2e49e;
+    font-size: 22px;
 }
 
 .banner{
     background-color: #C3DE72;
     height: 14vh;
+    width: 185.3vh;
 }
 
 /* -------------------------------BODY------------------------------ */
 
 main{
     background-color: #EAF1D3;
-    height: 78vh;
+    height: 76vh;
+    width: 185.3vh;
 }
 
 /* ---------------------------------------FOOTER---------------------------------- */
 footer{
     background-color: #1D2B1F;
+    width: 185.3vh;
     height: 10.5vh;
     bottom: 0;
 }
