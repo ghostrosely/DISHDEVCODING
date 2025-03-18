@@ -42,7 +42,7 @@ nav> a:hover {
 }
 
 article{
-    margin-top: -39px;
+    margin-top: -39.5px;
 }
 
 /* -------------------------------BODY------------------------------ */
@@ -62,6 +62,6 @@ footer{
 }
 
 .social{
-    margin-left: 160vh;
+    margin-left: 150vh;
     margin-bottom: 10vh;
 }
