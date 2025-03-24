@@ -58,6 +58,30 @@ main{
     max-width: 100vw;
 }
 
+.heading{
+    float: right;
+    margin-right: 130px;
+}
+
+.h1{
+    font-size: 34px;
+}
+
+
+.paragraph{
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+#about{
+    margin-top: -20px;
+}
+
+#klikken{
+    float: right;
+    margin-top: -100px;
+}
+
 /* ---------------------------------------FOOTER---------------------------------- */
 footer{
     background-color: #1D2B1F;
