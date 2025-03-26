@@ -10,7 +10,7 @@
     <meta name="author" content="Bingyi Zhou">
 
     <title>Home</title>
-    <link rel="stylesheet" href="stylesheetdish.css">
+    <link rel="stylesheet" href="Css/stylesheetdish.css">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
     
     <header>
 
-        <?php include "c:\xampp\htdocs\DISHDEVCODING\PHP\header.php"?>
+        <?php include "PHP/header.php"?>
 
     </header>
 
@@ -57,7 +57,7 @@
         </main>
  
     <footer>
-        <?php include "c:\xampp\htdocs\DISHDEVCODING\PHP\footer.php"?>
+        <?php include "PHP\footer.php"?>
     </footer>
 </body>
 </html>

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <header>
 
 <br>
@@ -14,3 +15,4 @@
 </article>
 
 </header>
+</html>
