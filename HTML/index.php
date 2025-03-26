@@ -18,7 +18,7 @@
     
     <header>
 
-        <?php include "PHP/header.php"?>
+        <?php include "c:\xampp\htdocs\DISHDEVCODING\PHP\header.php"?>
 
     </header>
 
@@ -51,13 +51,13 @@
                 </article>
 
                 <section class="button">
-                    <button type="button" id="reseveren">Reseveer nu!</button>
-                    <button type="button" id="locatie">Locaties & Openingstijden</button>
+                    <button type="button" class="button" id="reseveren">Reseveer nu!</button>
+                    <button type="button" class="button" id="locatie">Locaties & Openingstijden</button>
                 </section>
         </main>
  
     <footer>
-        <?php include "PHP/footer.php"?>
+        <?php include "c:\xampp\htdocs\DISHDEVCODING\PHP\footer.php"?>
     </footer>
 </body>
 </html>
