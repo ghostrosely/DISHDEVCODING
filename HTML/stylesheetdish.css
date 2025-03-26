@@ -23,17 +23,18 @@ nav{
     display: flex;
     flex: 6;
     justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav > a {
     color: #FDFFF4;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 nav> a:hover {
     color: #d2e49e;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .banner{
@@ -54,6 +55,11 @@ nav> a:hover {
 
 /* -------------------------------BODY------------------------------ */
 
+.homeimg{
+    height: 60% ;
+    width: 55% ;
+}
+
 main{
     background-color: #EAF1D3;
     height: 76vh;
@@ -65,11 +71,12 @@ main{
     margin-right: 70px;
 }
 
-.h1{
+.title{
     font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
+/* Home */
 .paragraph{
     font-size: 18px;
     margin-top: -15px;
@@ -83,8 +90,26 @@ main{
 .klikken{
     float: center;
     margin-top: -200px;
-    margin-left: 680px;
+    margin-left: 700px;
+}
 
+#reseveren{
+    color: #1D2B1F;
+    background-color:#C3DE72;
+}
+
+#locatie{
+    color: #1D2B1F;
+    background-color:#C3DE72;
+}
+
+/* Lunch & Diner */
+
+/* Openingstijden & Locatie */
+
+article > img {
+    height: 45vh;
+    width: 90vh;
 }
 
 /* ---------------------------------------FOOTER---------------------------------- */
@@ -106,3 +131,5 @@ footer{
     color: #FDFFF4;
 }
 }
+
+/*-------------------------------------------------- TABLET ------------------------------------------------------*/
