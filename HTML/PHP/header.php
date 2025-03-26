@@ -10,7 +10,7 @@
 </nav>
 
 <article class="logo">
-    <a href="index.html"><img src="c:\xampp\htdocs\DISHDEVCODING\IMG\vegan.png" alt="veganfoodlogo" height="68" width="90"></a>
+    <a href="index.html"><img src="IMG\vegan.png" alt="veganfoodlogo" height="68" width="90"></a>
 </article>
 
 </header>
