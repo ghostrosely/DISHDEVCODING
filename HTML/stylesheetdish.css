@@ -99,6 +99,11 @@ main{
     cursor: pointer;
   }
 
+.button:hover{
+    background-color: #1D2B1F;
+    color: #FDFFF4;
+}
+
 #reseveren{
     color: #1D2B1F;
     background-color:#C3DE72;
