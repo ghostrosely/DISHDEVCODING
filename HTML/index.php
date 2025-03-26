@@ -50,7 +50,7 @@
                         <br>planeet. Kom even kijken wat we allemaal voorbereiden!</p>
                 </article>
 
-                <section class="klikken">
+                <section class="button">
                     <button type="button" id="reseveren">Reseveer nu!</button>
                     <button type="button" id="locatie">Locaties & Openingstijden</button>
                 </section>

@@ -87,11 +87,18 @@ main{
     margin-top: -20px;
 }
 
-.klikken{
-    float: center;
-    margin-top: -200px;
-    margin-left: 700px;
-}
+.button {
+    background-color: #C3DE72;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 
 #reseveren{
     color: #1D2B1F;
