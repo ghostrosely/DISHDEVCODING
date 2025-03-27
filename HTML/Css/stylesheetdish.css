@@ -33,7 +33,7 @@ nav > a {
 }
 
 nav> a:hover {
-    color: #d2e49e;
+    text-decoration: underline;
     font-size: 20px;
 }
 
@@ -87,14 +87,16 @@ main{
     margin-top: -20px;
 }
 
+/* Buttons */
 .button {
     background-color: #C3DE72;
-    border: none;
-    color: rgb(0, 0, 0);
+    border: 0;
+    border-radius: 60px;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 4px 2px;
     cursor: pointer;
   }
@@ -104,23 +106,24 @@ main{
     color: #FDFFF4;
 }
 
-#reseveren{
-    color: #1D2B1F;
-    background-color:#C3DE72;
-}
-
-#locatie{
-    color: #1D2B1F;
-    background-color:#C3DE72;
-}
+/* .placement{
+    display: grid;
+} */
 
 /* Lunch & Diner */
+.placement{
+    float: right;
+}
 
 /* Openingstijden & Locatie */
+#time{
+    float: right;
+    margin-top: -200px;
+}
 
 article > img {
-    height: 45vh;
-    width: 90vh;
+    height: 40%;
+    width: 40%;
 }
 
 /* ---------------------------------------FOOTER---------------------------------- */

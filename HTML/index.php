@@ -50,14 +50,14 @@
                         <br>planeet. Kom even kijken wat we allemaal voorbereiden!</p>
                 </article>
 
-                <section class="button">
+                <section class="placement">
                     <button type="button" class="button" id="reseveren">Reseveer nu!</button>
                     <button type="button" class="button" id="locatie">Locaties & Openingstijden</button>
                 </section>
         </main>
  
     <footer>
-        <?php include "PHP\footer.php"?>
+        <?php include "PHP/footer.php"?>
     </footer>
 </body>
 </html>

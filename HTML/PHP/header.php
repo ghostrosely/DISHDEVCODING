@@ -4,7 +4,7 @@
 <br>
 <nav>
     <a href="index.html">Home </a>
-    <a href="lunch & diner.html">Lunch & Diner </a>
+    <a href="lunch & diner.html">Menu</a>
     <a href="openingstijden & locatie.html">Openingstijden & Locatie </a>
     <a href="reseveren.html">Reseveren </a>
     <a href="vacatures.html">Vacatures </a>
