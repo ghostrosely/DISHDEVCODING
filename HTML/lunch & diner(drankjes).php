@@ -34,9 +34,9 @@
             </article>
 
             <section id="menu">
-                <button class="button"><a class="href" href="lunch & diner(gerechten).html">Gerechten</a></button>
-                <button class="button"><a class="href" href="lunch & diner(drankjes).html">Drankjes</a></button>
-                <button class="button"><a class="href" href="lunch & diner(dessert).html">Desserts</a></button>
+                <button class="button"><a class="href" href="lunch & diner(gerechten).php">Gerechten</a></button>
+                <button class="button"><a class="href" href="lunch & diner(drankjes).php">Drankjes</a></button>
+                <button class="button"><a class="href" href="lunch & diner(dessert).php">Desserts</a></button>
             </section>
 <br><br>
 <br><br>
