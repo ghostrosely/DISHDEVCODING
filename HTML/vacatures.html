@@ -4,47 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="description" content="Homepage voor Vegan food">
     <meta name="keywords" content="Restaurant : Vegan Food, Food, Vegan">
     <meta name="author" content="Yoana Madzhovska">
-
-    <title>Home</title>
-    <link rel="stylesheet" href="Css/stylesheetdish.css">
+    <title>Vacatures - Vegan Restaurant</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <script defer src="JS/script.js"></script>
 </head>
-
 <body>
- 
     <header>
-
-        <br>
         <nav>
-            <a href="index.php">Home </a>
-            <a href="lunch & diner.html">Lunch & Diner </a>
-            <a href="openingstijden & locatie.html">Openingstijden & Locatie </a>
-            <a href="reseveren.html">Reseveren </a>
-            <a href="vacatures.html">Vacatures </a>
+            <ul>
+                <li><a href="index.php">Openingstijden & Locatie</a></li>
+                <li><a href="lunch & diner(gerechten).php">Lunch & Diner</a></li>
+                <li><a href="openingstijden & locatie.php">Openingstijden & Locatie</a></li>
+                <li><a href="reserveren.html">Reserveren</a></li>
+                <li><a href="vacatures.html" class="active">Vacatures</a></li>
+            </ul>
         </nav>
- 
-        <article>
-            <img src="IMG\vegan.png" alt="veganfoodlogo" height="68" width="90">
-        </article>
-
     </header>
 
-    <section class="banner">
+    <main>
+        <h2>Word deel van ons team! 🌱</h2>
+        <div class="slideshow-container">
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <div class="slide fade">
+                <img src="IMG/IMG/istockphoto-2156105571-612x612.jpg" alt="Chef in de keuken">
+                <div class="caption">
+                    <h3>Chef-kok 🍽️</h3>
+                    <p>Ben jij gepassioneerd over veganistisch koken? Sluit je aan bij ons team!</p>
+                </div>
+            </div>
 
-    </section>
-   
-        <main>
-                
-        </main>
+            <div class="slide fade">
+                <img src="IMG/IMG/istockphoto-2138675956-2048x2048 1.png" alt="Bartender">
+                <div class="caption">
+                    <h3>Bartender / Koffie-expert ☕🍹</h3>
+                    <p>Maak heerlijke koffies en cocktails in ons vegan restaurant!</p>
+                </div>
+            </div>
+
+            <div class="slide fade">
+                <img src="IMG/IMG/istockphoto-2156105571-612x612.jpg" alt="Keuken team">
+                <div class="caption">
+                    <h3>Keukenhulp 👩‍🍳</h3>
+                    <p>Help mee in de keuken en leer alles over plantaardige gerechten!</p>
+                </div>
+            </div>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+    </main>
  
     <footer>
         <section class="social">
-            <img src="IMG\linkedin-logo-linkedin-icon-transparent-free-png.png" alt="linkedin logo" height="65" width="65">
-            <img src="IMG\facebook-logo-facebook-icon-transparent-free-png.png" alt="facebook logo" height="65" width="65">
-            <img src="IMG\Instagram-logo.png" alt="instagram logo" height="60" width="60">
+            <img src="IMG/mdi_linkedin.png" alt="linkedin logo" height="65" width="65">
+            <img src="IMG/ic_baseline-facebook.png" alt="facebook logo" height="65" width="65">
+            <img src="IMG/Instagram-logo.png" alt="instagram logo" height="60" width="60">
         </section>
     </footer>
  

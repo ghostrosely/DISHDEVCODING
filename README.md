@@ -1,8 +1,14 @@
 # DISHDEVCODING periode 3
 
-Home = index.html door Bingyi Zhou
-Lunch & Diner = lunch & diner.html door Bingyi Zhou
-Openingstijden & Locatie = openingstijden & reseveren.html door Bingyi Zhou
-Reseveren = reseveren.html door Yoana Madzhovska
+Home = index.php door Bingyi Zhou
+Lunch & Diner = lunch & diner.php door Bingyi Zhou
+Openingstijden & Locatie = openingstijden & reseveren.php (alle drie) door Bingyi Zhou
+Reserveren = reserveren.html door Yoana Madzhovska
 Vacatures = vacatures.html door Yoana Madzhovska
 Slideshow.js = door Bingyi Zhou
+script.js= door Yoana Madzhovska
+style.css= door Yoana Madzhovska
+IMG > IMG = door Yoana Madzhovska
+IMG = Bingyi Zhou
+stylesheetdish.css = door Bingyi Zhou
+footer & header.php = door Bingyi Zhou

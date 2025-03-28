@@ -4,9 +4,9 @@
         <br>
         <nav>
             <a href="index.php">Home </a>
-            <a href="lunch & diner(gerechten).html">Menu</a>
-            <a href="openingstijden & locatie.html">Openingstijden & Locatie </a>
-            <a href="reseveren.html">Reseveren </a>
+            <a href="lunch & diner(gerechten).php">Menu</a>
+            <a href="openingstijden & locatie.php">Openingstijden & Locatie </a>
+            <a href="reserveren.html">Reseveren </a>
             <a href="vacatures.html">Vacatures </a>
         </nav>
 
