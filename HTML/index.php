@@ -40,6 +40,11 @@
                         <br>gerechten.</p>
                 </article>
 
+            <section id="mainbutton">
+                <button class="button"><a class="href" href="openingstijden & locatie.html">Locaties & <br>Openingstijden</a></button>
+                <button class="button"><a class="href" href="reseveren.html">Reseveer nu!</a></button>
+            </section>
+
                 <article id="about">
                     <p class="title">Over ons</p>
                     <p class="paragraph">
@@ -49,11 +54,6 @@
                         <br>de smaak van een plantaardige toekomst en deel in onze 
                         <br>planeet. Kom even kijken wat we allemaal voorbereiden!</p>
                 </article>
-
-                <section class="placement">
-                    <button type="button" class="button" id="reseveren">Reseveer nu!</button>
-                    <button type="button" class="button" id="locatie">Locaties & Openingstijden</button>
-                </section>
         </main>
  
     <footer>

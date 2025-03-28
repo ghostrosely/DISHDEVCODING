@@ -2,15 +2,11 @@
 #1D2B1F for header/footer and banners (see in visual design)
 #FDFFF4 for link/nav/text on darker backgrounds
 #C3DE72 for banner/buttons
-#EAF1D3 for background colour
-#d2e49e for hover*/
-
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+#EAF1D3 for background colour*/
 
 @media screen and (min-width: 769px) {
     
-/*------------------------ HEADER & NAV --------------------------------*/
+/*--------------------------------- HEADER & NAV --------------------------------*/
 header{
     background-color: #1D2B1F;
     height: 10.5vh;
@@ -62,7 +58,7 @@ nav> a:hover {
 
 main{
     background-color: #EAF1D3;
-    height: 76vh;
+    height: 150vh;
     max-width: 100vw;
 }
 
@@ -87,6 +83,11 @@ main{
     margin-top: -20px;
 }
 
+#mainbutton{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 /* Buttons */
 .button {
     background-color: #C3DE72;
@@ -106,24 +107,53 @@ main{
     color: #FDFFF4;
 }
 
-/* .placement{
-    display: grid;
-} */
+.href{
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.href:hover{
+    color: #FDFFF4;
+}
 
 /* Lunch & Diner */
-.placement{
-    float: right;
+
+#gerechten{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 200px);
+    column-gap: 30px;
+    margin: 14px 40px 30px;
+}
+
+article > img {
+    height: 70%;
+    width: 70%;
+}
+
+.gerechtenfood{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 4%;
+    column-gap: 30px;
 }
 
 /* Openingstijden & Locatie */
 #time{
-    float: right;
-    margin-top: -200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-article > img {
-    height: 40%;
-    width: 40%;
+.house{
+    width: 80vh;
+    height: 40vh;
+}
+
+.gegevens{
+    margin: 20px;
 }
 
 /* ---------------------------------------FOOTER---------------------------------- */
@@ -135,28 +165,143 @@ footer{
 }
 
 .social{
-    margin-left: 150vh;
-    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .info{
-    margin-top: -115px;
-    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -55px;
     color: #FDFFF4;
 }
 }
 
-/*-------------------------------------------------- TABLET ------------------------------------------------------*/
+/*-------------------------------------------------- TABLET & MOBIEL ------------------------------------------------------*/
 @media screen and (max-width: 768px) {
 
 /*------------------------ HEADER & NAV --------------------------------*/
 
 header{
     background-color: #1D2B1F;
-    height: 10.5vh;
+    height: 15vh;
     position: fixed;
     top: 0;
     width: 100vw;
 }
 
+.banner{
+    background-color: #C3DE72;
+    top: 0%;
+    height: 18vh;
+    max-width: 100vw;
+}
+
+.logo {
+    margin-top: -70px;
+}
+/* -------------------------------main----------------------------------------- */
+main{
+    background-color: #EAF1D3;
+    height: 150vh;
+    max-width: 100vw;
+}
+
+/* NAV */
+
+nav > a{
+    color: #FDFFF4;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    justify-content: center;
+}
+
+/* Buttons */
+.button {
+    background-color: #C3DE72;
+    border: 0;
+    border-radius: 60px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.button:hover{
+    background-color: #1D2B1F;
+    color: #FDFFF4;
+}
+
+.paragraph{
+    font-size: 12px;
+    margin-top: -15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gerechtenfood{
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+}
+
+.href:hover{
+    color: #FDFFF4;
+    text-decoration: none;
+}
+
+.href{
+    color: black;
+    text-decoration: none;
+}
+
+.gerechtenfood{
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    gap: 4%;
+    column-gap: 30px;
+}
+
+article > img {
+    height: 30%;
+    width: 30%;
+}
+
+.gerechten{
+    display: flex;
+    flex-direction: column;
+}
+
+/* ----------------------------------------footer--------------------------------------- */
+footer{
+    background-color: #1D2B1F;
+    height: 10.5vh;
+    max-width: 100vw;
+    bottom: 0;
+}
+
+.social{
+    display: flex;
+    flex-direction: row-reverse;
+    color: #FDFFF4;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    margin-top: -50px;
+    color: #FDFFF4;
+}
 }
