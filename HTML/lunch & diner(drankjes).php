@@ -43,28 +43,28 @@
             <section class="gerechtenfood">
                 <p class="paragraph">
                     ### Koude Dranken - 
-                    <br>Huisgemaakte ijsthee • €3,50 
-                    <br>- Vers geperst sinaasappelsap • €4,00 - 
-                    <br>Kombucha van de dag • €4,50 -
-                    <br> Biologische frisdranken • €3,00 
+                    <br>Huisgemaakte ijsthee • €3,50 <br>
+                    <br>- Vers geperst sinaasappelsap • €4,00 <br>
+                    <br>- Kombucha van de dag • €4,50 <br>
+                    <br>- Biologische frisdranken • €3,00 <br>
                 </p>
                 <p class="paragraph">
                     <p class="paragraph">
                         ### Warme Dranken
-                        <br> - Espresso • €2,50 - 
-                        <br>Cappuccino (met havermelk) • €3,50 -
-                        <br> Thee (diverse soorten) • 
-                        <br>€2,75 - Verse mun hee • €3,00 
+                        <br> - Espresso • €2,50 <br>
+                        <br>- Cappuccino (met havermelk) • €3,50 <br>
+                        <br>- Thee (diverse soorten) • €2,75 <br>
+                        <br>- Verse mun hee • €3,00 <br>
                 </p>
                 <p class="paragraph">
                     ### Wijnen 
                     <br>**Wit**
-                    <br> - Biologische Chardonnay (glas) • €4,50 -
-                    <br> Biologische Sauvignon Blanc (glas) • €4,50 
+                    <br> - Biologische Chardonnay (glas) • €4,50 <br>
+                    <br> - Biologische Sauvignon Blanc (glas) • €4,50 <br>
                     <br>
                     <br>**Rood** 
-                    <br>- Biologische Merlot (glas) • €4,50 -
-                    <br> Biologische Tempranillo (glas) • €4,50
+                    <br>- Biologische Merlot (glas) • €4,50 <br>
+                    <br> - Biologische Tempranillo (glas) • €4,50 <br>
                 </p>
             </section>
         </main>

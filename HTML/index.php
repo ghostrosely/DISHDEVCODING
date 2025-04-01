@@ -41,7 +41,7 @@
                 </article>
 
             <section id="mainbutton">
-                <button class="button"><a class="href" href="openingstijden & locatie.php">Locaties & <br>Openingstijden</a></button>
+                <button class="button"><a class="href" href="openingstijden & locatie.php">Locaties & Openingstijden</a></button>
                 <button class="button"><a class="href" href="reserveren.html">Reseveer nu!</a></button>
             </section>
 

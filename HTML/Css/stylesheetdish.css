@@ -64,7 +64,6 @@ main{
 
 .heading{
     float: right;
-    margin-right: 70px;
 }
 
 .title{
@@ -74,13 +73,13 @@ main{
 
 /* Home */
 .paragraph{
-    font-size: 18px;
+    font-size: 20px;
     margin-top: -15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #about{
-    margin-top: -20px;
+    margin-top: -60px;
 }
 
 #mainbutton{
@@ -113,10 +112,13 @@ main{
     color: black;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 }
 
 .href:hover{
     color: #FDFFF4;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Lunch & Diner */
@@ -242,13 +244,13 @@ nav > a{
 }
 
 .paragraph{
-    font-size: 12px;
+    font-size: 16px;
     margin-top: -15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .title{
-    font-size: 16px;
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -261,11 +263,15 @@ nav > a{
 .href:hover{
     color: #FDFFF4;
     text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .href{
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .gerechtenfood{
