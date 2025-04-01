@@ -13,6 +13,3 @@
                     Telefoonnummer: 088-2321451</p>
             </article>
     </footer>
-</body>
-</html>
-</html>

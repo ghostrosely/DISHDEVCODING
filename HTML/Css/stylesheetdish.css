@@ -85,7 +85,9 @@ main{
 
 #mainbutton{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: end;
+    gap: 20px;
 }
 
 /* Buttons */

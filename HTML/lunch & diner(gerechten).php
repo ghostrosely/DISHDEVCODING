@@ -39,7 +39,8 @@
                 <button class="button"><a class="href" href="lunch & diner(gerechten).php">Gerechten</a></button>
                 <button class="button"><a class="href" href="lunch & diner(drankjes).php">Drankjes</a></button>
                 <button class="button"><a class="href" href="lunch & diner(dessert).php">Desserts</a></button>
-<br><br>
+                
+            <br><br>
             <section class="gerechtenfood">
                 <p class="paragraph">
                     **Brusche a Tricolore** •
