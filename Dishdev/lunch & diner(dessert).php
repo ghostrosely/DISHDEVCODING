@@ -41,15 +41,16 @@
 <br><br>
             <section class="gerechtenfood">
                 <p class="paragraph">
-                    ## Desserts 
-                    <br>**Chocolade Lava Cake** • €8,50 
+                    Desserts 
+                    <br>**Chocolade Lava Cake** • 
+                    <br>€8,50 
                     <br>Warme chocoladecake met een vloeibare 
                     <br>kern, geserveerd met vanille-ijs van 
                     <br>kokosmelk
                 </p>
                 <p class="paragraph">
                     <p class="paragraph">
-                        ## Desserts 
+                        Desserts 
                         <br>**Cheesecake van de Dag** • €7,50 
                         <br>Vraag onze bediening naar de smaak 
                         <br>van vandaag
