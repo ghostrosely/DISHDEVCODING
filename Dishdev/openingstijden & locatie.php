@@ -24,6 +24,7 @@
    
         <main>
             <br>
+            <!-- Slideshow -->
             <article id="time">
                 <div id="slideshow-container">
                     <div class="slide">

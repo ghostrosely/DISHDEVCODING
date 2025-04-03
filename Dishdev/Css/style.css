@@ -29,6 +29,11 @@ nav ul li a {
     font-weight: bold;
 }
 
+nav > ul > li > a:hover {
+    text-decoration: underline;
+    font-size: larger;
+}
+
 nav ul li a.active {
     text-decoration: underline;
 }
