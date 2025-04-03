@@ -12,6 +12,12 @@ header {
     text-align: center;
 }
 
+.logo {
+    display: flex;
+    flex-direction: row;
+    margin-top: -60px;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
