@@ -65,9 +65,9 @@
 
         </main>
  
-        <footer>
+    <footer>
         <?php include "PHP/footer.php"?>
     </footer>
-     <script src="JS/slideshow.js">defer</script>
-    </body>
-    </html>
+    <script src="JS/slideshow.js">defer</script>
+</body>
+</html>

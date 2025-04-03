@@ -71,8 +71,8 @@
 
         </main>
 
-        <footer>
+    <footer>
         <?php include "PHP/footer.php"?>
     </footer>
-    </body>
-    </html>
+</body>
+</html>
