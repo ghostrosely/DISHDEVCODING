@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <footer>
         <section class="social">
             <a href="#"><img src="IMG\mdi_linkedin.png" alt="linkedin logo" height="40" width="40"></a>
