@@ -15,7 +15,7 @@
 
 <body>
     <header>
-    <?php include "PHP/header.php"?>
+        <?php include "PHP/header.php"?>
     </header>
 
     <section class="banner">
@@ -28,7 +28,7 @@
             <article id="time">
                 <div id="slideshow-container">
                     <div class="slide">
-                    <a href="https://www.google.nl/maps"><img src="IMG/locatie.png" alt="locatie" style="width:60%;"></a>
+                        <img src="IMG/locatie.png" alt="locatie" style="width:60%;">
                     </div>
                     <div class="slide">
                         <img src="IMG/huis.jpg" alt="huis" style="width:60%;">

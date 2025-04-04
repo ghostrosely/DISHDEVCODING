@@ -41,7 +41,7 @@ nav> a:hover {
 }
 
 .logo{
-    margin-top: -38px;
+    margin-top: -58px;
 }
 
 .profile{
@@ -188,7 +188,7 @@ footer{
 
 header{
     background-color: #1D2B1F;
-    height: 15vh;
+    height: 13vh;
     position: fixed;
     top: 0;
     width: 100vw;
@@ -197,13 +197,16 @@ header{
 .banner{
     background-color: #C3DE72;
     top: 0%;
-    height: 18vh;
+    height: 17vh;
     max-width: 100vw;
 }
 
 .logo {
-    margin-top: -70px;
+    margin-top: -700px;
+    display: flex;
+    justify-content: end;
 }
+
 /* -------------------------------main----------------------------------------- */
 main{
     background-color: #EAF1D3;
@@ -212,17 +215,89 @@ main{
 }
 
 /* NAV */
+.menu-items {
+    display: flex;
+    flex-direction: row;
+  }
+  
+.checkbox {
+    position: absolute;
+    display: block;
+    height: 40px;
+    width: 38px;
+    margin-top: -20px;
+    margin-right: 10px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+.hamburger-lines {
+    display: block;
+    height: 26px;
+    width: 32px;
+    top: 13px;
+    left: 18px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+.line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #FDFFF4;
+  }
+  
+.line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+.line2 {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+.line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+.menu-items {
+    height: 100vh;
+    width: 100%;
+    background-color: #1D2B1F;
+    transform: translate(-150%);
+    display: flex;
+    flex-direction: column;
+    gap: 8%;
+    transition: transform 0.5s;
+  }
 
-nav > a{
+  nav > a {
     color: #FDFFF4;
+    font-size: 20px;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    display: flex;
-    justify-content: center;
-}
+  }
+
+  nav > a:hover {
+    color: #FDFFF4;
+    font-size: 22px;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .menu-items {
+    transform: translateX(0);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .logo{
+    display: none;
+  }
 
 /* Buttons */
 .button {
