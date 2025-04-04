@@ -12,7 +12,7 @@
                 <a href="index.php">Home </a>
                 <a href="lunch & diner(gerechten).php">Menu</a>
                 <a href="openingstijden & locatie.php">Openingstijden & Locatie </a>
-                <a href="reserveren.html">Reseveren </a>
+                <a href="reserveren.php">Reseveren </a>
                 <a href="vacatures.html">Vacatures </a>
             </nav>
             </div>
